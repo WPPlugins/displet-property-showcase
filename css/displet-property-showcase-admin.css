@@ -1,0 +1,70 @@
+/******************
+Menu Styles
+******************/
+
+#adminmenu #toplevel_page_displettools-uid-slug div.wp-menu-image{
+	margin: 6px;
+	width: 16px;
+	height: 16px;
+	overflow: hidden;
+}
+
+#adminmenu #toplevel_page_displettools-uid-slug div.wp-menu-image{
+	background: url('images/displet-icon.png') 0px 0px no-repeat;
+}
+
+#adminmenu #toplevel_page_displettools-uid-slug:hover div.wp-menu-image,
+#adminmenu #toplevel_page_displettools-uid-slug.wp-has-current-submenu div.wp-menu-image{
+	background-position: 0px bottom;
+}
+
+#adminmenu #toplevel_page_displettools-uid-slug div.wp-menu-image img{
+	display: none;
+}
+
+/******************
+Displet Help Page Styles
+******************/
+
+#displet-help-page .displet-left{
+	float: left;
+}
+
+#displet-help-page .displet-group::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+#displet-help-page ul{
+	margin: 21px 0px;
+	padding-left: 21px;
+}
+
+#displet-help-page li{
+	padding: 3px 0px;
+	line-height: 18px;
+	list-style-type: disc;
+}
+
+#displet-help-page .displet-group.displet-images{
+	margin-right: -20px;
+}
+
+#displet-help-page .displet-image{
+	display: block;
+	width: 300px;
+	max-width: 50%;
+	cursor: pointer;
+}
+
+#displet-help-page .displet-group .displet-image{
+	margin: 0px 20px 10px 0px; 
+}
+
+#displet-help-page .displet-image.displet-active{
+	width: auto;
+	max-width: none;
+}
+
+

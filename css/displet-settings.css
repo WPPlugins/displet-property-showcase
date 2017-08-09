@@ -1,0 +1,45 @@
+.displet-tab{
+	float: left;
+	margin-left: 10px;
+	cursor: pointer;
+}
+
+.displet-tab:first-child{
+	margin-left: 0px;
+}
+
+.displet-tab{
+	padding: 7px 12px;
+	background-color: #ddd;
+}
+
+.displet-tab:hover, .displet-tab.active{
+	background-color: #fff;
+}
+
+.displet-tab:first-child{
+	margin-left: 0px;
+}
+
+.displet-fieldset{
+	clear: both;
+}
+
+label.displet-error{
+	color: #c00;
+}
+
+input[type="text"].displet-error{
+	border-color: #c00;
+}
+
+.displet-media-thumbnail{
+	display: block;
+	margin-bottom: 10px;
+	max-width: 200px;
+	max-height: 100px;
+}
+
+.displet-fieldset .displet-media-remove{
+	margin-left: 5px;
+}
